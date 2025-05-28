@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "MS Sans Serif 8pt"; 
+  src: url("fonts/MS Sans Serif 8pt.ttf")
+}
+@font-face {
+  font-family: "MS Sans Serif 8pt Bold";
+  src: url("fonts/MS Sans Serif 8pt.ttf")
+}
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: url(https://lemourka.neocities.org/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "MS Sans Serif 8pt";
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+h1 {
+  font-family: "MS Sans Serif 8pt Bold";
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 16px;
+}
