@@ -5,63 +5,11 @@
   <head>
     <meta charset="utf-8">
     <title>инфосайт лемурки</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/emoji.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-  </head>
-  
-  <body>
-    <div class="attention">
-      <div class="title">
-        ㅤㅤᅠПредупреждение
-        <button class="close-button">X</button>
-      </div>
-      <div class="message">
-        <img src="/img/emoji.png" alt="честно сказать в шоке" width='40' height='40'>Вы хотите перейти на так называемый "инфосайт"?
-      </div>
-      <form action="https://lemourka.github.io/info">
-      <button class="yep">
-        <span class="yeptext">Хочу (не надо)</span>
-      </button>
-      </form>
-    </div>
-  
-    <script>
-      $(".attention").draggable();
-      var attention = '<div class="attention">' + $('.attention').html() + '</div>',
-      x = window.innerWidth / 3.
-      y = window.innerHeight / 3;
-      $(".attention").draggable({containment:'parent'});
-      $('body').on('click', '.close-button', function(){
-      $('body').append(attention);
-      $('.attention').last().css({ top: y + 'px', left: x + 'px'}).draggable();
-      x+=4;
-      y+=4;
-    });
-      </script>
-  </body>
-  
-  <style>
-@font-face {
-  font-family: "MS Sans Serif 8pt"; 
-  src: url("fonts/MS Sans Serif 8pt.ttf")
-}
-@font-face {
-  font-family: "MS Sans Serif 8pt Bold";
-  src: url("fonts/MS Sans Serif 8pt Bold.ttf")
-}
-html, body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
-  background: url(img/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
+    <style>
 .attention {
   position: absolute;
   width: 494px;
@@ -76,7 +24,7 @@ html, body {
 .title {
   box-sizing: border-box;
   padding-left: 3px;
-  padding-bottom: 3px
+  padding-bottom: 3px;
   position: relative;
   width: 100%;
   height: 30px;
@@ -88,7 +36,7 @@ html, body {
   font-family: "MS Sans Serif 8pt Bold";
   font-weight: normal; 
   font-style: normal; 
-  font-size: 18px;
+  font-size: 18px
 }
 .close-button {
   position: absolute;
@@ -99,7 +47,7 @@ html, body {
   color: #000;
   text-align: center;
   font-weight: bold;
-  background: #e8e8d8;
+  background: #e8e8d8
 }
 .message {
   width: 100%;
@@ -132,6 +80,38 @@ html, body {
   font-size: 16px
 }
   </style>
+  </head>
+  
+  <body>
+    <div class="attention">
+      <div class="title">
+        ㅤㅤᅠПредупреждение
+        <button class="close-button">X</button>
+      </div>
+      <div class="message">
+        <img src="/img/emoji.png" alt="честно сказать в шоке" width='40' height='40'>Вы хотите перейти на так называемый "инфосайт"?
+      </div>
+      <form action="info.html">
+      <button class="yep">
+        <span class="yeptext">Хочу (не надо)</span>
+      </button>
+      </form>
+    </div>
+  
+    <script>
+      $(".attention").draggable();
+      var attention = '<div class="attention">' + $('.attention').html() + '</div>',
+      x = window.innerWidth / 3.
+      y = window.innerHeight / 3;
+      $(".attention").draggable({containment:'parent'});
+      $('body').on('click', '.close-button', function(){
+      $('body').append(attention);
+      $('.attention').last().css({ top: y + 'px', left: x + 'px'}).draggable();
+      x+=4;
+      y+=4;
+    });
+      </script>
+  </body>
 </html>
 
 <!-- 
