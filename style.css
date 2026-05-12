@@ -1,55 +1,32 @@
-/*и чего ты здесь забыл о_О*/
-
 @font-face {
-  font-family: "MS Sans Serif 8pt"; 
+  font-family: "MS Sans Serif 8pt";
   src: url("fonts/MS Sans Serif 8pt.ttf")
 }
+
 @font-face {
   font-family: "MS Sans Serif 8pt Bold";
   src: url("fonts/MS Sans Serif 8pt.ttf")
 }
-html, body {
+
+html,
+body {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background: url(img/bg.jpg);
+  background: url(img/bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   font-family: "MS Sans Serif 8pt";
-  font-weight: normal; 
-  font-style: normal; 
+  font-weight: normal;
+  font-style: normal;
 }
+
 h1 {
   font-family: "MS Sans Serif 8pt Bold";
-  font-weight: normal; 
-  font-style: normal; 
+  font-weight: normal;
+  font-style: normal;
   font-size: 16px;
 }
-
-/*
-⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⠄⠄⠄⠄⣀⣤⣴⣶⣶⣶⣶⣶⣶⣤⣄⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⢀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣆⠄⠄⠄⠄
-⠄⠄⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄
-⠄⠄⣾⣿⡿⠟⡋⠉⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠉⠉⠙⠻⣿⣿⣇⠄⠄
-⠄⢠⣿⡏⢰⣿⣿⡇⠄⠄⢸⣿⣿⣿⠿⠿⣿⣿⣿⠁⣾⣿⣷⠄⠄⠘⣿⣿⠄⠄
-⠄⠸⣿⣇⠈⠉⠉⠄⠄⢀⣼⡿⠋⠄⠄⠄⠄⠙⢿⣄⠙⠛⠁⠄⠄⢠⣿⣿⠄⠄
-⠄⠄⢿⣿⡇⠄⠄⠄⣶⣿⣿⢁⣤⣤⣤⣤⣤⣤⠄⣿⣷⠄⠄⠄⠈⢹⣿⡟⠄⠄
-⠄⠄⠈⢿⡗⠄⠄⢸⣿⣿⣿⣶⣶⣶⣶⣶⣶⣶⣶⣿⣿⠄⠄⠄⠄⢸⡟⠄⠄⠄
-⠄⠄⠄⠄⠳⡀⠄⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄⠄⠄⠌⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⠄⠄⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⠄⠄⠄⠉⠙⠻⠿⠿⣿⣿⣿⣿⠿⠿⠛⠉⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-
- 
-██╗░░░░░███████╗███╗░░░███╗░█████╗░██╗░░░██╗██████╗░    ██╗░░░░░███╗░░░███╗░█████╗░░█████╗░
-██║░░░░░██╔════╝████╗░████║██╔══██╗██║░░░██║██╔══██╗    ██║░░░░░████╗░████║██╔══██╗██╔══██╗
-██║░░░░░█████╗░░██╔████╔██║██║░░██║██║░░░██║██████╔╝    ██║░░░░░██╔████╔██║███████║██║░░██║
-██║░░░░░██╔══╝░░██║╚██╔╝██║██║░░██║██║░░░██║██╔══██╗    ██║░░░░░██║╚██╔╝██║██╔══██║██║░░██║
-███████╗███████╗██║░╚═╝░██║╚█████╔╝╚██████╔╝██║░░██║    ███████╗██║░╚═╝░██║██║░░██║╚█████╔╝
-╚══════╝╚══════╝╚═╝░░░░░╚═╝░╚════╝░░╚═════╝░╚═╝░░╚═╝    ╚══════╝╚═╝░░░░░╚═╝╚═╝░░╚═╝░╚════╝░
-*/
