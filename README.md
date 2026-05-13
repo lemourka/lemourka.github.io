@@ -8,4 +8,4 @@
 <a href="https://lemourka.github.io/" title=""> <img src="https://lemourka.github.io/img/coolbutton.gif" style="width: 88px; height: 31px" alt="lemourka"> </a>
 ```
 
-<img src="https://lemourka.github.io/img/coolbutton.gif" style="width: 88px; height: 31px"; alt="lemourka">
+<img src="https://lemourka.github.io/img/coolbutton.gif" alt="lemourka">
