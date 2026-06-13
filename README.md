@@ -5,7 +5,7 @@
 а пока что вы можете добавить на свой сайт мою прикольную кнопку:
 
 ```html
-<a href="https://lemourka.github.io/" target="_blank"> <img src="https://lemourka.github.io/img/coolbutton.gif" style="width: 88px; height: 31px" alt="lemourka">
+<a href="https://lemourka.bebra.gay/" target="_blank"> <img src="https://lemourka.bebra.gay/img/coolbutton.gif" style="width: 88px; height: 31px" alt="lemourka">
 ```
 
-<img src="https://lemourka.github.io/img/coolbutton.gif" alt="lemourka">
+<img src="https://lemourka.bebra.gay/img/coolbutton.gif" alt="lemourka">
